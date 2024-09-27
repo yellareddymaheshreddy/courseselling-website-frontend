@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 // Mock user data
@@ -75,7 +75,7 @@ export default function UserDashboard() {
           <div className="bg-white shadow rounded-lg p-6">
             <h3 className="text-xl font-semibold mb-4">Your Enrolled Courses</h3>
             {enrolledCourses.length === 0 ? (
-              <p>You haven't enrolled in any courses yet.</p>
+              <p>You haven t enrolled in any courses yet.</p>
             ) : (
               <div className="space-y-6">
                 {enrolledCourses.map((course) => (
