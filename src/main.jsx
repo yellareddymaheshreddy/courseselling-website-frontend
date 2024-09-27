@@ -11,7 +11,7 @@ import Container from "./pages/Container.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import AdminSignupPage from "./pages/AdminSignupPage.jsx";
 // import UserDashboard from "./pages/UserDashboard.jsx";
-import UserDashboard from "./Pages/UserDashboard.jsx";
+import UserDashboard from "./pages/UserDashboard.jsx";
 import CourseCreatorDashboard from "./pages/CourseCreatorDashboard.jsx";
 import UserSignupPage from "./pages/UserSignupPage.jsx";
 
